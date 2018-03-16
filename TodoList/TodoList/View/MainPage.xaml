@@ -1,0 +1,82 @@
+﻿<Page
+    x:Class="TodoList.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TodoList"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="using:TodoList.ViewModel"
+    xmlns:helper="using:TodoList.Helper"
+    xmlns:system="using:System"
+    mc:Ignorable="d" >
+
+
+    <Page.Resources>
+        <helper:DateTimeToStringConverter x:Key="Converter1"/>
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.DataContext>
+            <vm:MainModel/>
+        </Grid.DataContext>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+
+        <ListBox ItemsSource="{Binding ListTasks, UpdateSourceTrigger=PropertyChanged}" SelectedItem="{Binding SelectedModel, Mode=TwoWay}" SelectionMode="Single" Background="White">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding Path=title}" FontWeight="Bold" FontSize="18" FontFamily="Calibri" TextWrapping="Wrap"/>
+                        <TextBlock Text="{Binding Path=content}"/>
+                        <TextBlock Grid.Column="0" Margin="0" Text="{Binding date, Converter={StaticResource Converter1}}" TextWrapping="Wrap" />
+                        <CheckBox IsChecked="{Binding Path=statut}" IsHitTestVisible="False" Margin="0,0,0,0">
+                            <TextBlock Text="Tâche urgente" Margin="0,0,0,0" HorizontalAlignment="Left"></TextBlock>
+                        </CheckBox>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <Grid Grid.Row="1" Background="#820333">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" Text="Titre" Foreground="White" Margin="10"/>
+            <TextBox TextWrapping="Wrap" Grid.Row="0" Grid.Column="1" Text="{Binding NewTaskTitle, Mode=TwoWay}" PlaceholderText="Titre de la tâche" Margin="5" FontFamily="Calibri"/>
+            <TextBlock Grid.Row="1" Grid.Column="0" Text="Pour le" Foreground="White" Margin="10"/>
+            <DatePicker Grid.Row="1" Grid.Column="1" Date="{Binding NewTaskDate, Mode=TwoWay}" Margin="5"/>
+            <TextBlock Grid.Row="2" Grid.Column="0" Text="Description de la tâche" Foreground="White" Margin="10"/>
+            <TextBox TextWrapping="Wrap" Grid.Row="2" Grid.Column="1" Text="{Binding NewTaskContent, Mode=TwoWay}" PlaceholderText="Description de la tâche" Margin="5" FontFamily="Calibri"/>
+            <CheckBox Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right" Margin="0,0,40,0" IsChecked="{Binding NewTaskStatut, Mode=TwoWay}" Foreground="White">Tâche urgente</CheckBox>
+        </Grid>
+
+
+
+        <Grid Grid.Row="2" Background="#820333">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Row="0" Grid.Column="0" Command="{Binding Path=addCommand}" Content="Ajouter" Foreground="White" Background="#2E112D" Margin="5"/>
+            <Button Grid.Row="0" Grid.Column="1" Command="{Binding Path=DeleteCommand, Mode=TwoWay}" Content="Supprimer" Foreground="White" Background="#2E112D" Margin="5"/>
+            <Button Grid.Row="0" Grid.Column="2" Name="EditButton" Command="{Binding Path=EditCommand, Mode=TwoWay}" Content="Editer une tâche" Foreground="White" Background="#2E112D" Margin="5"/>
+        </Grid>
+        
+    </Grid>
+</Page>
