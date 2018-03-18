@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>0a6b46a6-f9ef-48e0-ba2a-082708e729d5</PackageIdentityName>
     <PackageIdentityPublisher>CN=Justine</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>5A7B5F6B7F4DD0CD805390AE08408C04BB5876230BCD8E8B1EA9388AD5A56031</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>0a6b46a6-f9ef-48e0-ba2a-082708e729d5_1.0.0.0_x86__yx82pq23w0w5y</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>0a6b46a6-f9ef-48e0-ba2a-082708e729d5_yx82pq23w0w5y!App</RegisteredUserModeAppID>
@@ -28,16 +28,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-16T15:12:49.493</Modified>
+      <Modified>2018-03-18T13:39:50.637</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\bin\x86\Debug\TodoList.exe">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\bin\x86\Debug\TodoList.exe">
       <PackagePath>entrypoint\TodoList.exe</PackagePath>
-      <Modified>2018-03-16T15:12:48.733</Modified>
+      <Modified>2018-03-18T13:39:48.540</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Justine\.nuget\packages\microsoft.csharp\4.3.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -519,60 +519,60 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T21:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2018-02-04T22:13:51.182</Modified>
+      <Modified>2018-02-04T22:13:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2018-01-24T17:26:12.992</Modified>
+      <Modified>2018-01-24T17:26:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-24T17:26:12.992</Modified>
+      <Modified>2018-01-24T17:26:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-24T17:26:12.992</Modified>
+      <Modified>2018-01-24T17:26:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-24T17:26:12.992</Modified>
+      <Modified>2018-01-24T17:26:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-24T17:26:12.992</Modified>
+      <Modified>2018-01-24T17:26:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-24T17:26:12.992</Modified>
+      <Modified>2018-01-24T17:26:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-24T17:26:12.992</Modified>
+      <Modified>2018-01-24T17:26:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\bin\x86\Debug\TodoList.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\bin\x86\Debug\TodoList.xr.xml">
       <PackagePath>TodoList.xr.xml</PackagePath>
-      <Modified>2018-03-16T15:12:48.554</Modified>
+      <Modified>2018-03-18T13:34:54.195</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-09-28T16:28:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-16T15:12:49.228</Modified>
+      <Modified>2018-03-18T13:39:49.497</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\bin\x86\Debug\Core\TodoList.exe">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\bin\x86\Debug\Core\TodoList.exe">
       <PackagePath>TodoList.exe</PackagePath>
-      <Modified>2018-03-16T15:12:49.488</Modified>
+      <Modified>2018-03-18T13:39:50.630</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

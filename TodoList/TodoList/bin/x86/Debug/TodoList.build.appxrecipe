@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>0a6b46a6-f9ef-48e0-ba2a-082708e729d5</PackageIdentityName>
     <PackageIdentityPublisher>CN=Justine</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\bin\x86\Debug\TodoList.exe">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\bin\x86\Debug\TodoList.exe">
       <PackagePath>entrypoint\TodoList.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Justine\.nuget\packages\microsoft.csharp\4.3.0\lib\netcore50\Microsoft.CSharp.dll">
@@ -388,47 +388,47 @@
     <AppxPackagedFile Include="C:\Users\Justine\.nuget\packages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\bin\x86\Debug\TodoList.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\bin\x86\Debug\TodoList.xr.xml">
       <PackagePath>TodoList.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\TodoList\bin\x86\Debug\Core\TodoList.exe">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\TodoList\bin\x86\Debug\Core\TodoList.exe">
       <PackagePath>TodoList.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

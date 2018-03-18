@@ -26463,11 +26463,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Justine\\Documents\\Epitech 2017-2018\\DotNet_todolist_2017\\TodoList\\UnitTestProject\\UnitTestProject.csproj",
+      "projectUniqueName": "C:\\Users\\Justine\\Documents\\GitHub\\todolist\\TodoList\\UnitTestProject\\UnitTestProject.csproj",
       "projectName": "UnitTestProject",
-      "projectPath": "C:\\Users\\Justine\\Documents\\Epitech 2017-2018\\DotNet_todolist_2017\\TodoList\\UnitTestProject\\UnitTestProject.csproj",
+      "projectPath": "C:\\Users\\Justine\\Documents\\GitHub\\todolist\\TodoList\\UnitTestProject\\UnitTestProject.csproj",
       "packagesPath": "C:\\Users\\Justine\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Justine\\Documents\\Epitech 2017-2018\\DotNet_todolist_2017\\TodoList\\UnitTestProject\\obj\\",
+      "outputPath": "C:\\Users\\Justine\\Documents\\GitHub\\todolist\\TodoList\\UnitTestProject\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
