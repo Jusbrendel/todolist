@@ -110,19 +110,27 @@ namespace TodoList.ViewModel
 
         private async void delSomething(object parameter)
         {
-            MessageDialog showDialog = new MessageDialog("Etês-vous certain de vouloir supprimer cette tâche : " + SelectedModel.title + " ?");
-            showDialog.Commands.Add(new UICommand("Oui") { Id = 0 });
-            showDialog.Commands.Add(new UICommand("Non") { Id = 1 });
-            showDialog.DefaultCommandIndex = 0;
-            showDialog.CancelCommandIndex = 1;
-            var result = await showDialog.ShowAsync();
-            if ((int)result.Id == 0)
+            if (SelectedModel != null)
             {
-                if (SelectedModel != null)
+                MessageDialog showDialog = new MessageDialog("Etês-vous certain de vouloir supprimer cette tâche : " + SelectedModel.title + " ?");
+                showDialog.Commands.Add(new UICommand("Oui") { Id = 0 });
+                showDialog.Commands.Add(new UICommand("Non") { Id = 1 });
+                showDialog.DefaultCommandIndex = 0;
+                showDialog.CancelCommandIndex = 1;
+                var result = await showDialog.ShowAsync();
+                if ((int)result.Id == 0)
                 {
-                    ListTasks.Remove(SelectedModel);
-                    NotifyPropertyChanged("ListTasks");
+                    if (SelectedModel != null)
+                    {
+                        ListTasks.Remove(SelectedModel);
+                        NotifyPropertyChanged("ListTasks");
+                    }
                 }
+            }
+            else
+            {
+                MessageDialog showDialog = new MessageDialog("Pas de tâche à supprimer.");
+                var result = await showDialog.ShowAsync();
             }
         }
 
