@@ -10,25 +10,25 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>f2eec5e8-57e4-4260-bd35-a727226a1268</PackageIdentityName>
     <PackageIdentityPublisher>CN=Justine</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\UnitTestProject\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Justine\Documents\GitHub\todolist\TodoList\UnitTestProject\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\UnitTestProject\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Justine\Documents\GitHub\todolist\TodoList\UnitTestProject\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\UnitTestProject\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\UnitTestProject\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\UnitTestProject\bin\x86\Debug\UnitTestProject.exe">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\UnitTestProject\bin\x86\Debug\UnitTestProject.exe">
       <PackagePath>entrypoint\UnitTestProject.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\UnitTestProject\bin\x86\Debug\UnitTestProject.pdb">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\UnitTestProject\bin\x86\Debug\UnitTestProject.pdb">
       <PackagePath>UnitTestProject.pdb</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\TestPlatform.Universal\15.5\References\CommonConfiguration\neutral\testhost.dll">
@@ -436,47 +436,47 @@
     <AppxPackagedFile Include="C:\Users\Justine\.nuget\packages\mstest.testadapter\1.2.0\build\_common\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll">
       <PackagePath>fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\UnitTestProject\Properties\UnitTestApp.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\UnitTestProject\Properties\UnitTestApp.rd.xml">
       <PackagePath>Properties\UnitTestApp.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\UnitTestProject\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\UnitTestProject\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\UnitTestProject\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\UnitTestProject\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\UnitTestProject\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\UnitTestProject\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\UnitTestProject\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\UnitTestProject\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\UnitTestProject\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\UnitTestProject\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\UnitTestProject\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\UnitTestProject\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\UnitTestProject\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\UnitTestProject\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\UnitTestProject\bin\x86\Debug\UnitTestProject.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\UnitTestProject\bin\x86\Debug\UnitTestProject.xr.xml">
       <PackagePath>UnitTestProject.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\UnitTestProject\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\UnitTestProject\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Justine\Documents\Epitech 2017-2018\DotNet_todolist_2017\TodoList\UnitTestProject\bin\x86\Debug\Core\UnitTestProject.exe">
+    <AppxPackagedFile Include="C:\Users\Justine\Documents\GitHub\todolist\TodoList\UnitTestProject\bin\x86\Debug\Core\UnitTestProject.exe">
       <PackagePath>UnitTestProject.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
